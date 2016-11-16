@@ -81,23 +81,23 @@
   };
 
   ext.getDistance = function(cb) {
-    sendCodieRequest("/queries/distance", cb);
+    sendCodieRequest("/queries/distance", {}, cb);
   };
 
   ext.getBatery = function(cb) {
-    sendCodieRequest("/queries/battery", cb);
+    sendCodieRequest("/queries/battery", {}, cb);
   };
 
   ext.getSound = function(cb) {
-    sendCodieRequest("/queries/sound", cb);
+    sendCodieRequest("/queries/sound", {}, cb);
   };
 
   ext.getLight = function(cb) {
-    sendCodieRequest("/queries/light", cb);
+    sendCodieRequest("/queries/light", {}, cb);
   };
 
   ext.getLine = function(cb) {
-    sendCodieRequest("/queries/line", cb);
+    sendCodieRequest("/queries/line", {}, cb);
   };
 
   // Block and block menu descriptions
