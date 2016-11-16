@@ -16,7 +16,8 @@
       dataType: "jsonp",
       data: request,
       success: function(response) {
-        cb(response.data);
+        console.log("Codie response", response);
+        cb(response);
       }
     });
   }
