@@ -1,0 +1,14 @@
+header h1 {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .is-dark p {
+    color: white;
+}
